@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="css/light-mc.css">
     <link rel="stylesheet" href="css/light.css">
 
+    <script type="module" src="lib/js/consumeJson.js"></script>
+    <script type="module" src="lib/js/muestraObjeto.js"></script>
+    <script type="module" src="lib/js/muestraError.js"></script>
+    <script type="module" src="js/configura.js"></script>
 </head>
 
 
@@ -32,12 +36,12 @@
   .then(respuesta => muestraObjeto(document, respuesta.body))
   .catch(muestraError)">
 
-        <md-top-app-bar>
-            <center>
-                <h1>Chistes de lado del Servidor</h1>
-            </center>
-        </md-top-app-bar>
-   
+    <md-top-app-bar>
+        <center>
+            <h1>Chistes de lado del Servidor</h1>
+        </center>
+    </md-top-app-bar>
+
 
     <nav-tab-fixed id="tab"></nav-tab-fixed>
     <main>
@@ -49,7 +53,7 @@
         </ul>
     </main>
 
-   <nav-drw id="nav"></nav-drw>
+    <nav-drw id="nav"></nav-drw>
 
 </body>
 
