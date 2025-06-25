@@ -1,6 +1,6 @@
 {
- "short_name": "PWA de GPS, cámara y archivos.",
- "name": "Geolocalización, Archivos y Cámara",
+ "short_name": "PWA con Renderizado.",
+ "name": "Renderizado",
  "id": "/index.html",
  "start_url": "/index.html",
  "display": "standalone",
@@ -9,7 +9,7 @@
  "display_override": [
   "window-controls-overlay"
  ],
- "description": "PWA de una página que muestra la geolocalización, permite el uso de la cámara y subir archivos a la página.",
+ "description": "PWA de una página el renderizado de parte del servidor y el cliente.",
  "screenshots": [
   {
    "src": "/img/screenshot_horizontal.png",
