@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: pwa-con-renderizado
-    runtime: php
-    branch: main
-    plan: free
-    rootDir: .
